@@ -1,0 +1,56 @@
+{
+  "version":"https://schema.openattestation.com/2.0/schema.json",
+  "data":{
+    "blNumber":"662816a4-2a64-4a5e-9f76-6bfd8ef823a7:string:EPSJ96010608",
+    "shipper":{
+      "address":{
+        "street":"bfebaa9e-7db5-4ed3-a2de-c6d19d098937:string:1 St Johns Park",
+        "country":"472fa656-27ed-440c-97fc-b1435cc8b986:string:NSW 2176, Sydney, Australia"
+      },
+      "name":"50546384-3152-436f-a1c8-b7e0dd326d05:string:Sarah Woon"
+    },
+    "consignee":{
+      "name":"302c8931-77c2-4807-a822-a8e0794a18d6:string:Lo Siaw Ling"
+    },
+    "notifyParty":{
+      "name":"594eebf7-4be2-44d8-891b-a44a96da8a7c:string:Lo Siaw Ling"
+    },
+    "vessel":"9a1f6ca6-5e50-4841-83b8-e8e7dec9f0dd:string:CMA CGM PANAMA",
+    "voyageNo":"1b7fcef3-3f20-48a2-ac40-162f311e6e42:string:023E",
+    "portOfLoading":"b5953e29-685f-4e82-a9ca-2d8f36cb47e2:string:Port Botany, Sydney, Australia",
+    "portOfDischarge":"1b3ccf98-b5eb-4258-b92c-a5e4d0b8370e:string:Port of Singapore, Singapore",
+    "placeOfReceipt":"5542361a-c37e-409b-828b-dfcb6e2f3284:string:Port Botany, Sydney, Australia",
+    "placeOfDelivery":"6da954a1-b345-4d39-a5a6-b74d587d6f6b:string:Port of Singapore, Singapore",
+    "packages":[
+      {
+        "description":"11534b82-6f43-4264-b2ff-093a69b4cb2d:string:Wine, White, 2016, Hunter Valley Chardonnay",
+        "measurement":"b8eeb279-50dd-4cb2-a77c-41b1883456d8:string:cartons",
+        "weight":"bb1e31dc-33ea-4f1d-93a2-08284dd00ca7:string:50"
+      }
+    ],
+    "$template":{
+      "type":"88633187-8f31-4684-badc-b6c3d5d7625e:string:EMBEDDED_RENDERER",
+      "name":"17b0935d-6e97-4035-b184-7db5731aed50:string:BILL_OF_LADING",
+      "url":"248953bb-c8c6-44e4-a346-49895d5cf69d:string:https://renderer.billof.ladi.ng"
+    },
+    "issuers":[
+      {
+        "identityProof":{
+          "type":"84c40f7f-6811-4a83-b876-3b21d87d26bb:string:DNS-TXT",
+          "location":"efe7092e-4360-4298-b8ae-53f25fa8f5fc:string:billof.ladi.ng"
+        },
+        "name":"0adb6e70-2d84-472f-bbae-d8a2631d5735:string:DEMO STORE",
+        "tokenRegistry":"21f63813-0f59-4637-9b20-c0b5903e535b:string:0x10E936e6BA85dC92505760259881167141365821"
+      }
+    ],
+    "name":"ce1d8b8a-687f-4d9d-957d-be57f4a4b1e0:string:Maersk Bill of Lading"
+  },
+  "signature":{
+    "type":"SHA3MerkleProof",
+    "targetHash":"99f665b8805b2e3b7c78038143980d1b62d48ffd3f8267610fd3206507991a27",
+    "proof":[
+      
+    ],
+    "merkleRoot":"99f665b8805b2e3b7c78038143980d1b62d48ffd3f8267610fd3206507991a27"
+  }
+}
